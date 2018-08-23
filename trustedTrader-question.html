@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>AI Assistant for Australian Trusted Trader</title>
+
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/graph.css">
+    <link rel="stylesheet" href="./assets/css/system.base.css">
+    <link rel="stylesheet" href="./assets/css/animate.css">
+    <link rel="stylesheet" href="./assets/css/sng.css">
+ 
+    <!-- Bootstrap core CSS -->
+    
+    <style>
+    
+       
+        .image{
+            background-image: url("./assets/images/backgroud.png");
+            background-position:center;
+            background-size: 100% 100%;  
+            height: 180vh;
+        }
+        h2 { 
+           position: absolute; 
+           top: 200px; 
+           left: 0; 
+           width: 100%; 
+        }
+        .report{
+           position: absolute; 
+           top: 518px; 
+           left: 378px; 
+           width: 1036px;
+           height: 479px;
+           background-color: white;
+           overflow-y: scroll;"
+        }
+
+        
+    </style>
+    <!-- Custom styles for this template -->
+    </head>   
+<body>
+    <div class="image">
+    
+    <div class="report" id ="scroll-report">
+        
+        <div class="container" >
+            <!--start of the questions -->           
+            <div class="row">
+                   <div class="main" style="display: none;">
+                            <div id="main-content" class="content">
+                                <div class="questions container">
+                                    <div class="qnwrapper active" id="qn1">
+                                        <div class="headeroffset"></div>
+                                        <div class="sidebarbottom"></div>
+                                        <div class="aquestion text-white mb-3" id="aq1">
+                                            <div class="card-body">
+                                                <h4 class="card-title">What is your primary business activity?</h4>
+                                            
+                                            </div>
+                                        </div>
+                                        <div class="ananswer row" id="an1">
+                                            <button type="button" class="col next btn btn-outline-primary">Importer</button>
+                                            <button type="button" class="col next btn btn-outline-primary">Exporter</button>
+                                            <button type="button" class="col next btn btn-outline-primary">Service Provider</button>
+                                            <div class="w-100"></div>                                        
+                                            
+                                        </div>
+                                    </div>
+
+                                    <div class="qnwrapper next" id="qn2">
+                                        <div class="headeroffset"></div>
+                                        <div class="aquestion text-white mb-3"  id="aq2">
+                                            <div class="card-body">
+                                                <h4 class="card-title">How many consignements do you manage annually?</h4>
+                                                
+                                            </div>
+                                        </div>
+                                        <div class="ananswer row" id="an2">
+                                            <button type="button" class="col next btn btn-outline-primary">Small Business: 1-100 consignments </button>
+                                            <button type="button" class="col next btn btn-outline-primary">Medium Business: 101-500 consignments </button>
+                                            <button type="button" class="col next btn btn-outline-primary">Large: 501 and above consignments </button>
+                                            <div class="w-100"></div>
+                                          
+                                        </div>
+                                    </div>
+
+                                    <div class="qnwrapper next" id="qn3">
+                                        <div class="headeroffset"></div>
+                                        <div class="aquestion text-white mb-3" id="aq3">
+                                            <div class="card-body">
+                                                <h4 class="card-title">Which primary markets do you trade with? (up to 3)</h4>
+                                    
+                                            </div>
+                                        </div>
+                                        <div class="ananswer row" id="an3">
+                                            <button type="button" class="col btn btn-outline-primary">Hong Kong</button>
+                                            <button type="button" class="col btn btn-outline-primary">China</button>
+                                            <button type="button" class="col btn btn-outline-primary">Singapore</button>
+                                            <button type="button" class="col btn btn-outline-primary">Philippines</button>
+                                            <button type="button" class="col btn btn-outline-primary">Brunei</button>
+                                            <div class="w-100"></div>                                           
+                                            <button type="button" class="col btn btn-outline-primary">Thailand</button>   
+                                            <button type="button" class="col btn btn-outline-primary">Malaysia</button>
+                                            <button type="button" class="col btn btn-outline-primary">Korea</button>
+                                            <button type="button" class="col btn btn-outline-primary">Japan</button>
+                                            <button type="button" class="col btn btn-outline-primary">Indonesia</button>
+                                            <div class="w-100"></div>
+                                            <button type="button" class="col btn btn-outline-primary">Cambodia</button>   
+                                            <button type="button" class="col btn btn-outline-primary">Vietnam</button>
+                                            <button type="button" class="col btn btn-outline-primary">Laos</button>
+                                            <button type="button" class="col btn btn-outline-primary">Burma</button>
+                                            <button type="button" class="col btn btn-outline-primary">India</button>
+                                            <div class="w-100"></div>
+                                            <button type="button" class="col btn btn-outline-primary">United States</butto>  
+                                            <button type="button" class="col btn btn-outline-primary">Canada</button>
+                                            <button type="button" class="col btn btn-outline-primary">Chile</button>
+                                            <button type="button" class="col btn btn-outline-primary">New Zealand</button>
+                                            <button type="button" class="col btn btn-outline-primary">Others</button>
+                                            <div class="w-100"></div>
+                                           <button type="button" class="col btn next btn-outline-primary">Next&nbsp; <i class="fas fa-angle-double-down"></i></button>
+                                        </div>
+
+                                    </div>
+
+                                 
+
+                                    <div class="qnwrapper next" id="qn4" >
+                                        <div class="headeroffset"></div>
+                                        <div class="aquestion text-white bg-success mb-3" id="aq5" style="background-color: #99bfcd !important;">
+                                            <div class="card-body">
+                                                <h4 class="card-title">Thank You.</h4>
+                                                <p class="card-text">You have answered all the questions. Please click the link to see your the value of your potential benefit.</p>
+                                                <a href="trustedTrader-report.html"><button type="button" class="btn btn-success">Show Benefit</button></a>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                                <div class="results container" style="display: none; margin-bottom: 8vh;">
+                                   
+                                    <div class="aquestion text-white bg-primary mb-3" style="background: #5291ff; width:100%">
+                                       <div class="card-body">
+                                            <h2 class="card-title"><b>No Win. No Fee. * </b></h2>
+                                            <p style="font-size: large">Based on information provided, in provisionally assessing your claim, Slater & Gordon has determined that you have a VIABLE case with a <b>90%</b> likelihood of success, with no initial investment and an expected compensation in the range of <b>$200k - $500k</b>.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                               
+
+                            </div>
+                        </div>
+
+            </div>
+
+
+           
+        </div>
+
+       
+    </div>
+
+     <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
+    <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/bootstrap-notify.js"></script>
+</body>
+
+</html>

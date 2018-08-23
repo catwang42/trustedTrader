@@ -1,0 +1,225 @@
+[data-notify="progressbar"] {
+            margin-bottom: 0px;
+            position: absolute;
+            bottom: 0px;
+            left: 0px;
+            width: 100%;
+            height: 5px;
+        }
+        div {
+            font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+        }
+
+        body {
+            background-color: #fff;
+            font-size: smaller;
+        }
+
+        #fixed-header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 2;
+        }
+
+        .or {
+            padding-right: 15px;
+        }
+
+        .headeroffset {
+            padding-top: 100px;
+        }
+
+        .sidebarright {
+            position: fixed;
+            top: 0;
+            right: 0;
+            width: 20%;
+            border-left: 3px double black;
+            overflow-y: hidden;
+            z-index: 1050;
+        }
+
+        .sidebarright h1 {
+            text-align: center;
+            min-height: 50px;
+            margin: auto;
+        }
+
+        .btn-block:disabled {
+            cursor: default;
+        }
+
+        .qnwrapper {
+            opacity: 0.4;
+            /*padding-top: 30px;*/
+            padding-bottom: 20px;
+            min-height: 400px;
+        }
+
+        .qnwrapper.next {
+            display: none;
+        }
+
+        .qnwrapper.active {
+            display: block;
+            opacity: 1;
+        }
+
+        .aquestion {
+            border-radius: 20px;
+            background-color: #005F83;
+            border: solid 1px;
+            min-height: 100px;
+            width: 40vw;
+            margin: auto;
+            text-align: center;
+        }
+
+        .athanks {
+            border-radius: 20px;
+            border: solid 1px;
+            min-height: 100px;
+            width: 25vw;
+            margin: auto;
+            text-align: center;
+        }
+
+
+
+        .btn {
+            white-space: normal !important;
+            margin: 3px 3px;
+        }
+
+        .btn-primary {
+            background-color: #00b5e5;
+            border-color: #00b5e5;
+        }
+
+        .btn-outline-primary {
+            color: #00b5e5;
+            border-color: #00b5e5;
+        }
+
+        .tilesbar {
+            overflow-y: hidden;
+            max-height: 420px;
+        }
+
+        .sidetile, .subtile {
+            height: 400px;
+            display: none;
+            /*            margin-top: 20px;*/
+            border-radius: 10px;
+        }
+
+        .tiletheme {
+            background-color: #fffb7c;
+            color: black;
+        }
+
+        .fa-calendar {
+            color: #005f83;
+        }
+
+        .redcircle {
+            border-radius: 50%;
+            width: 20px;
+            height: 20px;
+            margin-right: 20px;
+            background: orange;
+            display: inline-block;
+        }
+
+        .greencircle {
+            border-radius: 50%;
+            width: 1em;
+            height: 1em;
+            margin: 0 2px;
+            background: green;
+            display: inline-block;
+        }
+
+        .card-text,
+        .card-text p {
+            margin: 0px;
+        }
+
+        .card-text ul {
+            margin-bottom: 0.5em;
+        }
+
+        .lawyer {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            transition: 0.3s;
+            border-radius: 5px;
+            padding: 15px;
+            max-height: 500px;
+            max-width: 300px;
+            margin: 10px;
+        }
+
+        .lawyer:hover {
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+        }
+
+        .lawyer-desc {
+            padding: 5px 5px;
+            color: azure;
+
+        }
+
+        .lawyer-desc p {
+            font-size: smaller;
+            line-height: 1em;
+        }
+
+        .lawyers.container {
+            width: 50vw;
+            margin-left: 15vw;
+        }
+
+        .lawyers-choice {
+            margin-bottom: 20px;
+        }
+
+        .lawyer-gradient {
+            background: -moz-linear-gradient(300deg, rgba(153, 218, 255, 1) 0%, rgba(0, 128, 128, 1) 100%);
+            /* ff3.6+ */
+            background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, rgba(153, 218, 255, 1)), color-stop(100%, rgba(0, 128, 128, 1)));
+            /* safari4+,chrome */
+            background: -webkit-linear-gradient(300deg, rgba(153, 218, 255, 1) 0%, rgba(0, 128, 128, 1) 100%);
+            /* safari5.1+,chrome10+ */
+            background: -o-linear-gradient(300deg, rgba(153, 218, 255, 1) 0%, rgba(0, 128, 128, 1) 100%);
+            /* opera 11.10+ */
+            background: -ms-linear-gradient(300deg, rgba(153, 218, 255, 1) 0%, rgba(0, 128, 128, 1) 100%);
+            /* ie10+ */
+            background: linear-gradient(150deg, rgba(153, 218, 255, 1) 0%, rgba(0, 128, 128, 1) 100%);
+            /* w3c */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#99DAFF', endColorstr='#008080', GradientType=0);
+            /* ie6-9 */
+        }
+
+        .lawyer-img {
+            width: 100px;
+            height: 100px;
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: cover;
+            margin: auto;
+            border-radius: 50%
+        }
+
+        .questions.container {
+            width: 50vw;
+            /*margin-left: 15vw;*/
+        }
+        .results.container {
+            width: 50vw;
+            /*margin-left: 15vw;*/
+        }
+#main-content {
+    padding-bottom: calc(100vh - 400px);
+    width: 950px;
+}
